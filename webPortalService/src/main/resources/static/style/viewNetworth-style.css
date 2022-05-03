@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+   padding-bottom: 2.5rem;
+ }
+ body{
+background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+   }
+   .transparent
+{  
+     background-color: transparent ;   /*whichever you want*/
+    opacity: 0.7;           /*0.5 determines transparency value*/ 
+    filter:(opacity=70);       
+}
+.footer {
+   position: fixed;
+   left: 0; 
+   bottom: 0;
+   width: 100%;
+   color: #000;
+   text-align: center;
+    display:inline-block;
+    font-weight:bold;
+}

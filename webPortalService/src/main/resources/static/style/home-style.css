@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+   padding-bottom: 2.5rem;
+ }
+ body {
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+   }
+body background-image{
+    opacity: 0.2;
+}
+
+.transparent
+{  
+     background-color: transparent ;   /*whichever you want*/
+    opacity: 0.7;           /*0.5 determines transparency value*/ 
+    filter:(opacity=70);       
+}
+.footer {
+   position: fixed;
+   left: 0; 
+   bottom: 0;
+   width: 100%;
+   color: #000;
+   text-align: center;
+    display:inline-block;
+    font-weight:bold;
+}

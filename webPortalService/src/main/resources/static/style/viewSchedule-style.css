@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+   padding-bottom: 2.5rem;
+ }
+ body{
+ 	background-image: url("https://image.freepik.com/free-vector/abstract-technology-particle-gray-background_1035-17927.jpg");
+    background-color: rgb(63, 154, 228);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+   }
+   .transparent
+{  
+     background-color: transparent ;   /*whichever you want*/
+    opacity: 0.7;           /*0.5 determines transparency value*/ 
+    filter:(opacity=70);       
+}
+.footer {
+   position: fixed;
+   left: 0; 
+   bottom: 0;
+   width: 100%;
+   color: #000;
+   text-align: center;
+    display:inline-block;
+    font-weight:bold;
+}

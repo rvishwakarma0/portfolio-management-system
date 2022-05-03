@@ -1,0 +1,10 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://image.freepik.com/free-vector/abstract-technology-particle-gray-background_1035-17927.jpg');
+  background-size: cover;
+  background-position: center center;
+}
